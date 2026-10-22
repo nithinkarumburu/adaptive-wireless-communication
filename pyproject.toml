@@ -1,0 +1,9 @@
+[project]
+name = "wireless-communication-it-lab"
+version = "1.0.0"
+description = "ANN adaptive source coding, educational LDPC, real LAN messaging and Rayleigh/AWGN simulation"
+requires-python = ">=3.10"
+dependencies = ["streamlit>=1.41,<2.0", "numpy>=1.26", "scikit-learn>=1.4"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
